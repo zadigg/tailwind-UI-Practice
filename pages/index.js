@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Booking from "./Booking";
+import Header from "../components/Header";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,9 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        <input type="checkbox" className="toggle" checked />
+      <main className="bg-gradient-to-r from-indigo-300 via-purple-500 to-orange-400  h-[100vh] w-full p-5 lg:p-16 overflow-scroll scrollbar-hide">
+        <div className=" bg-gradient-to-r from-gray-200 via-white to-gray-200  bg-opacity-95 max-w-screen-xl mx-auto h-[100vh] rounded-2xl  ">
+          <Booking />
+        </div>
       </main>
     </div>
   );
