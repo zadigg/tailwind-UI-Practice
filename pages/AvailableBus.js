@@ -8,7 +8,7 @@ function AvailableBus() {
         <Header />
         <div className="bg-gradient-to-b from-[#F4F1E9] via-[#FCF0DB] to-gray-[#F4F2E3]  h-[50vh] md:max-w-3xl mx-auto space-y-8 mt-10 md:mt-16 lg:mt-20   ">
           hello sasdsssasssassssdfssasdasdasasasd
-        </div>
+        </div>as
       </div>
     </div>
   );
